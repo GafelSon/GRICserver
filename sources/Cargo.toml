@@ -1,0 +1,21 @@
+[package]
+name = "gric-server"
+version = "0.1.0"
+authors = ["Soheil Fouladvandi <@gafelson>"]
+description = ""
+license = "MIT"
+repository = "https://github.com/GafelSon/"
+readme = "README.md"
+keywords = []
+categories = []
+edition = "2021"
+
+[dependencies]
+# MongoDB driver
+mongodb = "3.4.1"
+tokio = { version ="1.48.0", features = ["full"] }
+serde = { version = "1.0.228", features = ["derive"] }
+# Password hashing
+bcrypt = "0.17.1"
+# Add external crates
+# chrono = "0.4"
